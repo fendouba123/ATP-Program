@@ -1,1 +1,2 @@
-# ATP-Program
+The protein sequence to be predicted is put into the program in Fasta format. The protein sequence is intercepted into fragments by the program. After the interception, the characteristic parameters are extracted. These characteristic parameters are input into the prediction model obtained through 5-fold cross-validation. Through the operation of S-DCNN, the binding residues where the ligand combines with the protein can be obtained. The process is shown in the following figure4. 
+Note: C stands for basic feature parameters, PS and 2L stand for component and site conservation information, respectively, J and D stand for neighbor correlation and residue pairs, respectively, M stands for central motifs, and G stands for PSSM correlation features.
